@@ -8,16 +8,19 @@ count => number of neighbouring cells whose state := "on"
 
 1. **Death** : '''Python
                   if count < 2 or count > 3 :
-                      cell.state = "off" ''''
+                      cell.state = "off"
+               '''
 
 2. **Survival** :'''Python
                   'if count == 2 or count == 3 :
                       if cell.state == on':
-                            cell.state = "unchanged" '''
+                            cell.state = "unchanged"
+                 '''
 
 3. **Birth** : '''Python
                 'if cell.state == "off and count == 3 :
-                      cell.state = "on" '''
+                      cell.state = "on"
+               '''
 
 ### References ###
 
