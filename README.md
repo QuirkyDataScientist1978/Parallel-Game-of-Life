@@ -4,23 +4,23 @@ This repository contains a parallel implementation of __John Conway's Game of Li
 
 ### Rule Set for Game of Life ###
 
-count => number of neighbouring cells whose state := "on"
+ count => number of neighbouring cells whose state := "on"
 
 1. **Death** :<br />
-               if count < 2 or count > 3 :
-                      cell.state = "off"
-               '''
+               if count < 2 or count > 3 :<br/>
+                      cell.state = "off"<br/>
+
 
 2. **Survival** :<br />
-                 if count == 2 or count == 3 :<br/>
-                      if cell.state == on':<br/>
-                            cell.state = "unchanged"<br/>
-                 '''
+                     if count == 2 or count == 3 :<br/>
+                         if cell.state == on':<br/>
+                             cell.state = "unchanged"<br/>
+
 
 3. **Birth** : <br/>
                if cell.state == "off and count == 3 :<br/>
                       cell.state = "on"<br/>
-              
+
 
 ### References ###
 
