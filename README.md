@@ -6,15 +6,18 @@ This repository contains a parallel implementation of __John Conway's Game of Li
 
 count => number of neighbouring cells whose state := "on"
 
-1. **Death** : 'if count < 2 or count > 3 :
-                      cell.state = "off" '
+1. **Death** : '''Python
+                  if count < 2 or count > 3 :
+                      cell.state = "off" ''''
 
-2. **Survival** : 'if count == 2 or count == 3 :
+2. **Survival** :'''Python
+                  'if count == 2 or count == 3 :
                       if cell.state == on':
-                            cell.state = "unchanged"
+                            cell.state = "unchanged" '''
 
-3. **Birth** :   'if cell.state == "off and count == 3 :
-                      cell.state = "on"'
+3. **Birth** : '''Python
+                'if cell.state == "off and count == 3 :
+                      cell.state = "on" '''
 
 ### References ###
 
