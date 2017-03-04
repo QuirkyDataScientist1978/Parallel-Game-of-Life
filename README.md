@@ -23,7 +23,7 @@ This repository contains a parallel implementation of __John Conway's Game of Li
 
 3. **Birth** : <br/>
    ```python
-   if cell.state == "off and count == 3 :<br/>
+   if cell.state == "off and count == 3 :
           cell.state = "on"
    ```
 
