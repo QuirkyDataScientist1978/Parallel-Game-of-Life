@@ -16,7 +16,7 @@ This repository contains a parallel implementation of __John Conway's Game of Li
 2. **Survival** :<br />
    ```python
    if count == 2 or count == 3 :
-        if cell.state == on':
+        if cell.state == "on":
               cell.state = "unchanged"
    ```
 
