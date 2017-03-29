@@ -27,7 +27,7 @@ This repository contains a parallel implementation of __John Conway's Game of Li
           cell.state = "on"
    ```
    
-### Demo using MPI ###
+### Demo using MPI 
 
 [![asciicast](https://asciinema.org/a/ef25azn67jsqnh9w9y16g99hb.png)](https://asciinema.org/a/ef25azn67jsqnh9w9y16g99hb)
 
