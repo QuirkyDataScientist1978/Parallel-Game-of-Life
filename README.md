@@ -31,6 +31,12 @@ This repository contains a parallel implementation of __John Conway's Game of Li
 
 [![asciicast](https://asciinema.org/a/ef25azn67jsqnh9w9y16g99hb.png)](https://asciinema.org/a/ef25azn67jsqnh9w9y16g99hb)
 
+
+
+
+
+
+
 ### References ###
 
 [Game of Life Cellular Automata](http://download.springer.com/static/pdf/50/bok%253A978-1-84996-217-9.pdf?originUrl=http%3A%2F%2Flink.springer.com%2Fbook%2F10.1007%2F978-1-84996-217-9&token2=exp=1488644798~acl=%2Fstatic%2Fpdf%2F50%2Fbok%25253A978-1-84996-217-9.pdf%3ForiginUrl%3Dhttp%253A%252F%252Flink.springer.com%252Fbook%252F10.1007%252F978-1-84996-217-9*~hmac=606357a51ed8501f8404d07a3f5b9854e73f84959d3967c72fbf4a6eca086a11)
